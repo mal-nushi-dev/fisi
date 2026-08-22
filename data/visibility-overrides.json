@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "defaultPolicy": {
+    "sensitiveFields": [
+      "birthDate",
+      "birthPlace",
+      "deathDate",
+      "deathPlace",
+      "photo",
+      "mapCoordinates"
+    ]
+  },
+  "overrides": {}
+}
+

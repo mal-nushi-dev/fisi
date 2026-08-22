@@ -1,0 +1,520 @@
+[
+  {
+    "id": "I1",
+    "displayName": "Mali"
+  },
+  {
+    "id": "I17",
+    "displayName": "Aslan Axhanela"
+  },
+  {
+    "id": "I18",
+    "displayName": "Fisnik Axhanela"
+  },
+  {
+    "id": "I19",
+    "displayName": "Lumi Axhanela"
+  },
+  {
+    "id": "I20",
+    "displayName": "Pellumb Axhanela"
+  },
+  {
+    "id": "I102",
+    "displayName": "Qazim Axhemi"
+  },
+  {
+    "id": "I106",
+    "displayName": "Samile Caka"
+  },
+  {
+    "id": "I29",
+    "displayName": "Njomza Çarkaxhiu"
+  },
+  {
+    "id": "I111",
+    "displayName": "Sajde Gjoshi"
+  },
+  {
+    "id": "I46",
+    "displayName": "Vlora Gjoshi"
+  },
+  {
+    "id": "I85",
+    "displayName": "Anida Grazhda"
+  },
+  {
+    "id": "I95",
+    "displayName": "Alida Gurmani"
+  },
+  {
+    "id": "I93",
+    "displayName": "Driton Gurmani"
+  },
+  {
+    "id": "I92",
+    "displayName": "Jakup Gurmani"
+  },
+  {
+    "id": "I94",
+    "displayName": "Valbon Gurmani"
+  },
+  {
+    "id": "I72",
+    "displayName": "Astrit Jahjaga"
+  },
+  {
+    "id": "I75",
+    "displayName": "Parta Jahjaga"
+  },
+  {
+    "id": "I71",
+    "displayName": "Tomor Jahjaga"
+  },
+  {
+    "id": "I11",
+    "displayName": "Hydajet Kerleshi"
+  },
+  {
+    "id": "I78",
+    "displayName": "Arlinda Kroqi"
+  },
+  {
+    "id": "I6",
+    "displayName": "Fatime Kumnova"
+  },
+  {
+    "id": "I39",
+    "displayName": "Diari Limani"
+  },
+  {
+    "id": "I37",
+    "displayName": "Skender Limani"
+  },
+  {
+    "id": "I38",
+    "displayName": "Toena Limani"
+  },
+  {
+    "id": "I117",
+    "displayName": "Mimoza Lluka"
+  },
+  {
+    "id": "I70",
+    "displayName": "Anila Marseli"
+  },
+  {
+    "id": "I113",
+    "displayName": "Gezime Myftiu"
+  },
+  {
+    "id": "I23",
+    "displayName": "Drita Myha"
+  },
+  {
+    "id": "I104",
+    "displayName": "Shyhrete Nikoliqi"
+  },
+  {
+    "id": "I7",
+    "displayName": "Adem Nushi",
+    "birthYear": 1889
+  },
+  {
+    "id": "I24",
+    "displayName": "Albi Nushi"
+  },
+  {
+    "id": "I87",
+    "displayName": "Alea Nushi"
+  },
+  {
+    "id": "I16",
+    "displayName": "Arbnora Nushi"
+  },
+  {
+    "id": "I68",
+    "displayName": "Arianit Nushi"
+  },
+  {
+    "id": "I12",
+    "displayName": "Arsim Nushi"
+  },
+  {
+    "id": "I21",
+    "displayName": "Artan Nushi"
+  },
+  {
+    "id": "I100",
+    "displayName": "Aurora Nushi"
+  },
+  {
+    "id": "I109",
+    "displayName": "Avni Nushi"
+  },
+  {
+    "id": "I108",
+    "displayName": "Belzike Nushi"
+  },
+  {
+    "id": "I76",
+    "displayName": "Deah Nushi"
+  },
+  {
+    "id": "I114",
+    "displayName": "Dijen Nushi"
+  },
+  {
+    "id": "I31",
+    "displayName": "Drrini Nushi"
+  },
+  {
+    "id": "I26",
+    "displayName": "Errita Nushi"
+  },
+  {
+    "id": "I105",
+    "displayName": "Faik Nushi"
+  },
+  {
+    "id": "I60",
+    "displayName": "Fatime Nushi"
+  },
+  {
+    "id": "I119",
+    "displayName": "Fjolla Nushi"
+  },
+  {
+    "id": "I2",
+    "displayName": "Florent Nushi"
+  },
+  {
+    "id": "I28",
+    "displayName": "Gent Nushi"
+  },
+  {
+    "id": "I30",
+    "displayName": "Hana Nushi"
+  },
+  {
+    "id": "I121",
+    "displayName": "Hedije Nushi"
+  },
+  {
+    "id": "I91",
+    "displayName": "Hyrije Nushi"
+  },
+  {
+    "id": "I9",
+    "displayName": "Jakup Nushi"
+  },
+  {
+    "id": "I22",
+    "displayName": "Jakup Nushi",
+    "birthYear": 1938
+  },
+  {
+    "id": "I116",
+    "displayName": "Jetmir Nushi"
+  },
+  {
+    "id": "I4",
+    "displayName": "Jon Nushi"
+  },
+  {
+    "id": "I79",
+    "displayName": "Klit Nushi"
+  },
+  {
+    "id": "I32",
+    "displayName": "Laura Nushi"
+  },
+  {
+    "id": "I74",
+    "displayName": "Lea Nushi"
+  },
+  {
+    "id": "I86",
+    "displayName": "Lean Nushi"
+  },
+  {
+    "id": "I84",
+    "displayName": "Leart Nushi"
+  },
+  {
+    "id": "I14",
+    "displayName": "Ledri Nushi"
+  },
+  {
+    "id": "I53",
+    "displayName": "Leonora Nushi"
+  },
+  {
+    "id": "I88",
+    "displayName": "Linda Nushi"
+  },
+  {
+    "id": "I77",
+    "displayName": "Liridon Nushi"
+  },
+  {
+    "id": "I90",
+    "displayName": "Lorika Nushi"
+  },
+  {
+    "id": "I49",
+    "displayName": "Luan Nushi"
+  },
+  {
+    "id": "I66",
+    "displayName": "Lule Nushi"
+  },
+  {
+    "id": "I36",
+    "displayName": "Majlinda Nushi"
+  },
+  {
+    "id": "I115",
+    "displayName": "Malart Nushi"
+  },
+  {
+    "id": "I127",
+    "displayName": "Mehmet Nushi"
+  },
+  {
+    "id": "I52",
+    "displayName": "Miri Nushi"
+  },
+  {
+    "id": "I107",
+    "displayName": "Myrvete Nushi"
+  },
+  {
+    "id": "I40",
+    "displayName": "Nafije Nushi",
+    "birthYear": 1937
+  },
+  {
+    "id": "I65",
+    "displayName": "Naxhije Nushi"
+  },
+  {
+    "id": "I27",
+    "displayName": "Nina Nushi"
+  },
+  {
+    "id": "I51",
+    "displayName": "Nol Nushi"
+  },
+  {
+    "id": "I98",
+    "displayName": "Norik Nushi"
+  },
+  {
+    "id": "I15",
+    "displayName": "Olti Nushi"
+  },
+  {
+    "id": "I63",
+    "displayName": "Petrit Nushi"
+  },
+  {
+    "id": "I103",
+    "displayName": "Ramiz Nushi"
+  },
+  {
+    "id": "I62",
+    "displayName": "Refik Nushi",
+    "birthYear": 1945
+  },
+  {
+    "id": "I112",
+    "displayName": "Refki Nushi"
+  },
+  {
+    "id": "I59",
+    "displayName": "Rexhep Nushi"
+  },
+  {
+    "id": "I118",
+    "displayName": "Rrita Nushi"
+  },
+  {
+    "id": "I73",
+    "displayName": "Rubik Nushi"
+  },
+  {
+    "id": "I82",
+    "displayName": "Sefedin Nushi"
+  },
+  {
+    "id": "I110",
+    "displayName": "Shaip Nushi"
+  },
+  {
+    "id": "I120",
+    "displayName": "Shkelzen Nushi"
+  },
+  {
+    "id": "I96",
+    "displayName": "Shpresim Nushi"
+  },
+  {
+    "id": "I101",
+    "displayName": "Suzana Nushi"
+  },
+  {
+    "id": "93741100",
+    "displayName": "Suzana Nushi"
+  },
+  {
+    "id": "I64",
+    "displayName": "Tahir Nushi"
+  },
+  {
+    "id": "I67",
+    "displayName": "Trina Nushi"
+  },
+  {
+    "id": "I69",
+    "displayName": "Vajza Nushi"
+  },
+  {
+    "id": "I80",
+    "displayName": "Vehbi Nushi"
+  },
+  {
+    "id": "I99",
+    "displayName": "Venesa Nushi"
+  },
+  {
+    "id": "I5",
+    "displayName": "Xhafer Nushi",
+    "birthYear": 1928
+  },
+  {
+    "id": "I10",
+    "displayName": "Xhevdet Nushi"
+  },
+  {
+    "id": "I45",
+    "displayName": "Arian Ostrozubi"
+  },
+  {
+    "id": "I42",
+    "displayName": "Burbuqe Ostrozubi"
+  },
+  {
+    "id": "I47",
+    "displayName": "Era Ostrozubi"
+  },
+  {
+    "id": "I41",
+    "displayName": "Fuat Ostrozubi"
+  },
+  {
+    "id": "I48",
+    "displayName": "Rrapi Ostrozubi"
+  },
+  {
+    "id": "I35",
+    "displayName": "Deon Ramadani"
+  },
+  {
+    "id": "I34",
+    "displayName": "Desea Ramadani"
+  },
+  {
+    "id": "I33",
+    "displayName": "Shpetim Ramadani"
+  },
+  {
+    "id": "I3",
+    "displayName": "Hilmije Resyli"
+  },
+  {
+    "id": "I50",
+    "displayName": "Drita Rizvanolli"
+  },
+  {
+    "id": "I57",
+    "displayName": "Gjen Sefa"
+  },
+  {
+    "id": "I56",
+    "displayName": "Mrika Sefa"
+  },
+  {
+    "id": "I55",
+    "displayName": "Norika Sefa"
+  },
+  {
+    "id": "I54",
+    "displayName": "Ruzdhi Sefa"
+  },
+  {
+    "id": "I58",
+    "displayName": "Zgjim Sefa"
+  },
+  {
+    "id": "I25",
+    "displayName": "Jeta Shehu"
+  },
+  {
+    "id": "I13",
+    "displayName": "Arta Tabaku"
+  },
+  {
+    "id": "I44",
+    "displayName": "Ora Vezgishi"
+  },
+  {
+    "id": "I43",
+    "displayName": "Sharr Vezgishi"
+  },
+  {
+    "id": "I97",
+    "displayName": "Vlora Vokshi"
+  },
+  {
+    "id": "I83",
+    "displayName": "Flutur Vula"
+  },
+  {
+    "id": "I61",
+    "displayName": "Amanda Williams"
+  },
+  {
+    "id": "I124",
+    "displayName": "Isuf Xharra"
+  },
+  {
+    "id": "I123",
+    "displayName": "Kadrush Xharra"
+  },
+  {
+    "id": "I8",
+    "displayName": "Qelepije Xharra",
+    "birthYear": 1900
+  },
+  {
+    "id": "I125",
+    "displayName": "Shazile Xharra"
+  },
+  {
+    "id": "I126",
+    "displayName": "Vezire Xharra"
+  },
+  {
+    "id": "I122",
+    "displayName": "Xheladin Xharra"
+  },
+  {
+    "id": "I89",
+    "displayName": "Lorik Zhubi"
+  },
+  {
+    "id": "I81",
+    "displayName": "Sabrije Zhubi"
+  }
+]
