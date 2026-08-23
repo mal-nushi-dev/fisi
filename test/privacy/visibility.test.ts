@@ -1,6 +1,11 @@
 /**
  * @file visibility.test.ts
- * @description Unit tests for Privacy and Visibility Engine.
+ * @description Unit tests for the Privacy and Visibility Engine.
+ *
+ * Verifies default privacy rules protecting living individuals (redacting birth,
+ * death, photos, and coordinates), default public visibility for deceased individuals,
+ * per-person/per-field visibility overrides, and full exclusion cascading across
+ * family relationships and search indices.
  */
 
 import { describe, it, expect } from "vitest";
@@ -71,6 +76,13 @@ describe("Privacy & Visibility Engine", () => {
     overrides: {},
   };
 
+  /**
+   * @test Default privacy policy enforcement for living individuals.
+   * @description Validates that living individuals (no death record and born < 110 years ago):
+   * 1. Have sensitive fields (`birthDate`, `birthPlace`, `photo`, `mapCoordinates`) resolved as `"hidden"`.
+   * 2. When sanitized, their `displayName` remains visible, but sensitive fields (`birth`, `photoUrl`)
+   *    are stripped (`undefined`), and `isDeceased` is marked `false`.
+   */
   it("redacts sensitive fields for living person by default while preserving name", () => {
     const vis = resolvePersonVisibility(livingPerson, baseConfig);
     expect(vis.fieldVisibility.birthDate).toBe("hidden");
@@ -85,6 +97,13 @@ describe("Privacy & Visibility Engine", () => {
     expect(sanitized?.isDeceased).toBe(false);
   });
 
+  /**
+   * @test Default public visibility policy for deceased individuals.
+   * @description Validates that deceased individuals (with explicit death event or born >= 110 years ago):
+   * 1. Have all fields resolved as `"visible"`.
+   * 2. When sanitized, full biographical details (dates, coordinates, places, photo URLs)
+   *    are preserved, and `isDeceased` is marked `true`.
+   */
   it("exposes sensitive fields for deceased person by default", () => {
     const vis = resolvePersonVisibility(deceasedPerson, baseConfig);
     expect(vis.fieldVisibility.birthDate).toBe("visible");
@@ -102,6 +121,13 @@ describe("Privacy & Visibility Engine", () => {
     expect(sanitized?.isDeceased).toBe(true);
   });
 
+  /**
+   * @test Explicit per-individual field override resolution.
+   * @description Validates that individual-level field overrides configured in `visibility.json`
+   * take precedence over default living-person privacy masking:
+   * - Setting `birthDate: "visible"` allows the birth date to be published.
+   * - Setting `photo: "visible"` exposes the photo URL while keeping other sensitive fields (e.g. `birthPlace`) hidden.
+   */
   it("applies explicit field overrides correctly", () => {
     const configWithOverride: VisibilityOverrides = {
       ...baseConfig,
@@ -126,6 +152,14 @@ describe("Privacy & Visibility Engine", () => {
     expect(sanitized?.photoUrl).toBe("/photos/I1.webp");
   });
 
+  /**
+   * @test Complete exclusion of an individual from public dataset.
+   * @description Verifies that configuring `exclude: true` for an individual (`I1`):
+   * 1. Completely removes the individual record from `people` map.
+   * 2. Strips the individual from search autocomplete index (`searchIndex`).
+   * 3. Cascades removal through family records (`families`), unlinking the person
+   *    as husband/wife/child without corrupting the rest of the family unit.
+   */
   it("completely excludes a person when exclude: true", () => {
     const configWithExclude: VisibilityOverrides = {
       ...baseConfig,
@@ -158,3 +192,4 @@ describe("Privacy & Visibility Engine", () => {
     expect(result.families["F1"]?.childIds).toEqual([]);
   });
 });
+

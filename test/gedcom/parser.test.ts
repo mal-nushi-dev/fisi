@@ -1,6 +1,11 @@
 /**
  * @file parser.test.ts
- * @description Unit tests for GEDCOM 7.0.3 parser.
+ * @description Unit tests for the GEDCOM 7.0.3 parser.
+ *
+ * Verifies standard-compliant line-by-line parsing of GEDCOM files,
+ * cross-platform line ending normalization (CR, LF, CRLF), coordinate
+ * conversion from directional string formats (N/S/E/W) to decimal degrees,
+ * and comprehensive extraction of individuals, family links, and media crop metadata.
  */
 
 import { describe, it, expect } from "vitest";
@@ -9,6 +14,13 @@ import * as path from "path";
 import { parseGedcom, parseCoordinate } from "../../lib/gedcom/parser";
 
 describe("GEDCOM Parser", () => {
+  /**
+   * @test Coordinate format parser and converter.
+   * @description Validates `parseCoordinate()` conversions:
+   * - Positive East (E) / North (N) directional coordinates to positive decimals
+   * - Negative West (W) / South (S) directional coordinates to negative decimals
+   * - Graceful fallback and handling of `undefined` and empty string values
+   */
   it("handles coordinate conversions properly", () => {
     expect(parseCoordinate("E21.096111")).toBeCloseTo(21.096111);
     expect(parseCoordinate("W83.651389")).toBeCloseTo(-83.651389);
@@ -18,6 +30,12 @@ describe("GEDCOM Parser", () => {
     expect(parseCoordinate("")).toBeUndefined();
   });
 
+  /**
+   * @test Cross-platform line ending normalization.
+   * @description Ensures the GEDCOM parser handles classic Mac OS (`\r`),
+   * Unix (`\n`), and Windows (`\r\n`) line endings without breaking tokenization
+   * or truncating field values.
+   */
   it("handles CR, LF, and CRLF line endings", () => {
     const sampleCR =
       "0 HEAD\r1 SOUR Test\r0 @I1@ INDI\r1 NAME Test /Person/\r2 GIVN Test\r2 SURN Person\r1 SEX M\r0 TRLR";
@@ -29,6 +47,14 @@ describe("GEDCOM Parser", () => {
     expect(parsed.people[0].sex).toBe("M");
   });
 
+  /**
+   * @test Full tree dataset parsing with real GEDCOM source file.
+   * @description Parses the canonical `Nushi-Genealogy.ged` file to ensure:
+   * - Correct counts of 128 individuals, 40 families, and 5 media files
+   * - Proper extraction of names, gender, and family pointers (e.g. `I33` / Shpetim Ramadani)
+   * - Vital statistics extraction (birth/death dates and GPS coordinate places like `I7` / Adem Nushi)
+   * - Media file references and bounding box image crop coordinates (e.g. `I62` / Refik Nushi)
+   */
   it("parses actual Nushi-Genealogy.ged file with 128 individuals, 40 families, and 5 media objects", () => {
     const gedcomPath = path.join(
       process.cwd(),
@@ -71,3 +97,4 @@ describe("GEDCOM Parser", () => {
     });
   });
 });
+
