@@ -168,15 +168,15 @@ describe("Data Access Layer - Relationship Graph Resolution & Invariants", () =>
     if (personWithSiblings) {
       const relatives = getRelatives(personWithSiblings.id);
       // Self must not appear in siblings list
-      expect(relatives.siblings.every((s) => s.id !== personWithSiblings.id)).toBe(
-        true,
-      );
+      expect(
+        relatives.siblings.every((s) => s.id !== personWithSiblings.id),
+      ).toBe(true);
 
       for (const sib of relatives.siblings) {
         const sibRelatives = getRelatives(sib.id);
-        expect(sibRelatives.siblings.some((s) => s.id === personWithSiblings.id)).toBe(
-          true,
-        );
+        expect(
+          sibRelatives.siblings.some((s) => s.id === personWithSiblings.id),
+        ).toBe(true);
       }
     }
   });
@@ -224,5 +224,3 @@ describe("Data Access Layer - Tree Aggregate Statistics Invariants", () => {
     }
   });
 });
-
-

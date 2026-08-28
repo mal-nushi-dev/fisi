@@ -298,16 +298,28 @@ describe("Privacy & Visibility - Person Record Sanitization (sanitizePerson)", (
       isDeceased: false,
     };
 
-    const both = sanitizePerson({ ...livingRaw, givenName: "A", surname: "B" }, vis);
+    const both = sanitizePerson(
+      { ...livingRaw, givenName: "A", surname: "B" },
+      vis,
+    );
     expect(both?.displayName).toBe("A B");
 
-    const givenOnly = sanitizePerson({ ...livingRaw, givenName: "A", surname: "" }, vis);
+    const givenOnly = sanitizePerson(
+      { ...livingRaw, givenName: "A", surname: "" },
+      vis,
+    );
     expect(givenOnly?.displayName).toBe("A");
 
-    const surOnly = sanitizePerson({ ...livingRaw, givenName: "", surname: "B" }, vis);
+    const surOnly = sanitizePerson(
+      { ...livingRaw, givenName: "", surname: "B" },
+      vis,
+    );
     expect(surOnly?.displayName).toBe("B");
 
-    const neither = sanitizePerson({ ...livingRaw, givenName: "", surname: "", id: "I99" }, vis);
+    const neither = sanitizePerson(
+      { ...livingRaw, givenName: "", surname: "", id: "I99" },
+      vis,
+    );
     expect(neither?.displayName).toBe("I99");
   });
 
@@ -515,4 +527,3 @@ describe("Privacy & Visibility - Full Dataset Sanitization (sanitizeGenealogy)",
     expect(result.visiblePhotoMap["I3"]).toBeUndefined();
   });
 });
-

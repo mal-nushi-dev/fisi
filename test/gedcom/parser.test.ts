@@ -206,10 +206,26 @@ describe("GEDCOM Parser - Name Extraction & Normalization", () => {
    */
   it("falls back to slash notation parsing when GIVN/SURN tags are absent", () => {
     const testCases = [
-      { raw: "1 NAME Jane /Smith/", expectedGiven: "Jane", expectedSur: "Smith" },
-      { raw: "1 NAME /OnlySurname/", expectedGiven: "", expectedSur: "OnlySurname" },
-      { raw: "1 NAME OnlyGiven //", expectedGiven: "OnlyGiven", expectedSur: "" },
-      { raw: "1 NAME SingleName", expectedGiven: "SingleName", expectedSur: "" },
+      {
+        raw: "1 NAME Jane /Smith/",
+        expectedGiven: "Jane",
+        expectedSur: "Smith",
+      },
+      {
+        raw: "1 NAME /OnlySurname/",
+        expectedGiven: "",
+        expectedSur: "OnlySurname",
+      },
+      {
+        raw: "1 NAME OnlyGiven //",
+        expectedGiven: "OnlyGiven",
+        expectedSur: "",
+      },
+      {
+        raw: "1 NAME SingleName",
+        expectedGiven: "SingleName",
+        expectedSur: "",
+      },
     ];
 
     for (const tc of testCases) {
@@ -465,4 +481,3 @@ describe("GEDCOM Parser - Canonical Dataset Invariants", () => {
     }
   });
 });
-
