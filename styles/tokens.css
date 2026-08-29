@@ -1,0 +1,97 @@
+/**
+ * @file tokens.css
+ * @description Design Token Architecture: Primitives, Semantics, and Component Tokens.
+ * Based on Teenage Engineering / Braun / Swiss International Typographic Style.
+ */
+
+:root {
+  /* ==========================================================================
+     1. Primitive Tokens (Raw Scales)
+     ========================================================================== */
+
+  /* Surfaces & Canvas */
+  --primitive-chalk-50: #FAF9F5;
+  --primitive-chalk-100: #F4F4EE;
+  --primitive-chalk-200: #EAEAE2;
+  --primitive-chalk-300: #E0E0D6;
+  --primitive-white: #FFFFFF;
+
+  /* Neutrals & Inks */
+  --primitive-stone-200: #E5E5DF;
+  --primitive-stone-300: #D6D6CC;
+  --primitive-stone-400: #A8A89E;
+  --primitive-graphite-600: #666660;
+  --primitive-graphite-700: #444440;
+  --primitive-graphite-800: #222220;
+  --primitive-graphite-900: #121212;
+
+  /* Accent & Functional Signals */
+  --primitive-orange-500: #FF4800; /* Iconic Braun / TE Signal Orange */
+  --primitive-orange-600: #E03E00;
+  --primitive-orange-100: #FFF0EB;
+  --primitive-emerald-600: #059669;
+  --primitive-emerald-100: #ECFDF5;
+  --primitive-amber-600: #D97706;
+  --primitive-amber-100: #FEF3C7;
+
+  /* Typography Stacks (Univers Grotesque & OCR-B Monospace) */
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-space-mono: 'Space Mono', 'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
+
+  /* Borders & Radii */
+  --primitive-border-hairline: 1px solid var(--primitive-stone-300);
+  --primitive-radius-none: 0px;
+  --primitive-radius-sm: 2px;
+  --primitive-radius-md: 4px;
+
+  /* ==========================================================================
+     2. Semantic Tokens (Intent-Driven)
+     ========================================================================== */
+
+  /* Surface Mappings */
+  --surface-canvas: var(--primitive-chalk-100);
+  --surface-card: var(--primitive-white);
+  --surface-card-subtle: var(--primitive-chalk-50);
+  --surface-muted: var(--primitive-chalk-200);
+  --surface-overlay: rgba(244, 244, 238, 0.94);
+
+  /* Typography Mappings */
+  --text-primary: var(--primitive-graphite-900);
+  --text-secondary: var(--primitive-graphite-700);
+  --text-muted: var(--primitive-graphite-600);
+  --text-inverse: var(--primitive-white);
+  --text-accent: var(--primitive-orange-500);
+
+  /* Border Mappings */
+  --border-hairline: var(--primitive-stone-300);
+  --border-hairline-light: var(--primitive-stone-200);
+  --border-accent: var(--primitive-orange-500);
+  --border-focus: var(--primitive-graphite-900);
+
+  /* Functional Accents */
+  --accent-signal: var(--primitive-orange-500);
+  --accent-signal-hover: var(--primitive-orange-600);
+  --accent-signal-subtle: var(--primitive-orange-100);
+
+  /* Status Tokens */
+  --status-living-text: var(--primitive-emerald-600);
+  --status-living-bg: var(--primitive-emerald-100);
+  --status-deceased-text: var(--primitive-graphite-700);
+  --status-deceased-bg: var(--primitive-chalk-200);
+  --status-protected-text: var(--primitive-amber-600);
+  --status-protected-bg: var(--primitive-amber-100);
+
+  /* ==========================================================================
+     3. Component Specific Tokens
+     ========================================================================== */
+  --button-primary-bg: var(--primitive-orange-500);
+  --button-primary-hover: var(--primitive-orange-600);
+  --button-primary-text: var(--primitive-white);
+
+  --table-row-hover: var(--primitive-chalk-50);
+  --table-header-bg: var(--primitive-chalk-100);
+
+  --badge-mono-bg: var(--primitive-chalk-200);
+  --badge-mono-text: var(--primitive-graphite-800);
+  --badge-mono-border: var(--primitive-stone-300);
+}

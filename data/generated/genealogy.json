@@ -1,0 +1,1974 @@
+{
+  "people": {
+    "93741100": {
+      "id": "93741100",
+      "givenName": "Suzana",
+      "surname": "Nushi",
+      "displayName": "Suzana Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F3",
+      "spouseFamilyIds": []
+    },
+    "I33": {
+      "id": "I33",
+      "givenName": "Shpetim",
+      "surname": "Ramadani",
+      "displayName": "Shpetim Ramadani",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F13"
+      ]
+    },
+    "I54": {
+      "id": "I54",
+      "givenName": "Ruzdhi",
+      "surname": "Sefa",
+      "displayName": "Ruzdhi Sefa",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F19"
+      ]
+    },
+    "I50": {
+      "id": "I50",
+      "givenName": "Drita",
+      "surname": "Rizvanolli",
+      "displayName": "Drita Rizvanolli",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F18"
+      ]
+    },
+    "I122": {
+      "id": "I122",
+      "givenName": "Xheladin",
+      "surname": "Xharra",
+      "displayName": "Xheladin Xharra",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F40"
+      ]
+    },
+    "I46": {
+      "id": "I46",
+      "givenName": "Vlora",
+      "surname": "Gjoshi",
+      "displayName": "Vlora Gjoshi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F17"
+      ]
+    },
+    "I20": {
+      "id": "I20",
+      "givenName": "Pellumb",
+      "surname": "Axhanela",
+      "displayName": "Pellumb Axhanela",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F9",
+      "spouseFamilyIds": []
+    },
+    "I95": {
+      "id": "I95",
+      "givenName": "Alida",
+      "surname": "Gurmani",
+      "displayName": "Alida Gurmani",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F32",
+      "spouseFamilyIds": []
+    },
+    "I107": {
+      "id": "I107",
+      "givenName": "Myrvete",
+      "surname": "Nushi",
+      "displayName": "Myrvete Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F35",
+      "spouseFamilyIds": []
+    },
+    "I63": {
+      "id": "I63",
+      "givenName": "Petrit",
+      "surname": "Nushi",
+      "displayName": "Petrit Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F20",
+      "spouseFamilyIds": [
+        "F27"
+      ]
+    },
+    "I13": {
+      "id": "I13",
+      "givenName": "Arta",
+      "surname": "Tabaku",
+      "displayName": "Arta Tabaku",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F8"
+      ]
+    },
+    "I89": {
+      "id": "I89",
+      "givenName": "Lorik",
+      "surname": "Zhubi",
+      "displayName": "Lorik Zhubi",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F31"
+      ]
+    },
+    "I48": {
+      "id": "I48",
+      "givenName": "Rrapi",
+      "surname": "Ostrozubi",
+      "displayName": "Rrapi Ostrozubi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F17",
+      "spouseFamilyIds": []
+    },
+    "I86": {
+      "id": "I86",
+      "givenName": "Lean",
+      "surname": "Nushi",
+      "displayName": "Lean Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F30",
+      "spouseFamilyIds": []
+    },
+    "I36": {
+      "id": "I36",
+      "givenName": "Majlinda",
+      "surname": "Nushi",
+      "displayName": "Majlinda Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F10",
+      "spouseFamilyIds": [
+        "F14"
+      ]
+    },
+    "I35": {
+      "id": "I35",
+      "givenName": "Deon",
+      "surname": "Ramadani",
+      "displayName": "Deon Ramadani",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F13",
+      "spouseFamilyIds": []
+    },
+    "I42": {
+      "id": "I42",
+      "givenName": "Burbuqe",
+      "surname": "Ostrozubi",
+      "displayName": "Burbuqe Ostrozubi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F15",
+      "spouseFamilyIds": [
+        "F16"
+      ]
+    },
+    "I44": {
+      "id": "I44",
+      "givenName": "Ora",
+      "surname": "Vezgishi",
+      "displayName": "Ora Vezgishi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F16",
+      "spouseFamilyIds": []
+    },
+    "I59": {
+      "id": "I59",
+      "givenName": "Rexhep",
+      "surname": "Nushi",
+      "displayName": "Rexhep Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "parentFamilyId": "F21",
+      "spouseFamilyIds": [
+        "F20"
+      ]
+    },
+    "I67": {
+      "id": "I67",
+      "givenName": "Trina",
+      "surname": "Nushi",
+      "displayName": "Trina Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F22",
+      "spouseFamilyIds": [
+        "F25"
+      ]
+    },
+    "I82": {
+      "id": "I82",
+      "givenName": "Sefedin",
+      "surname": "Nushi",
+      "displayName": "Sefedin Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F28",
+      "spouseFamilyIds": [
+        "F29"
+      ]
+    },
+    "I100": {
+      "id": "I100",
+      "givenName": "Aurora",
+      "surname": "Nushi",
+      "displayName": "Aurora Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F33",
+      "spouseFamilyIds": []
+    },
+    "I28": {
+      "id": "I28",
+      "givenName": "Gent",
+      "surname": "Nushi",
+      "displayName": "Gent Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F10",
+      "spouseFamilyIds": [
+        "F12"
+      ]
+    },
+    "I62": {
+      "id": "I62",
+      "givenName": "Refik",
+      "surname": "Nushi",
+      "displayName": "Refik Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "date": "28 NOV 1945"
+      },
+      "photoUrl": "/photos/I62.webp",
+      "parentFamilyId": "F20",
+      "spouseFamilyIds": [
+        "F22"
+      ]
+    },
+    "I76": {
+      "id": "I76",
+      "givenName": "Deah",
+      "surname": "Nushi",
+      "displayName": "Deah Nushi",
+      "sex": "F",
+      "isDeceased": true,
+      "death": {
+        "date": "09 APR 2021"
+      },
+      "spouseFamilyIds": [
+        "F27"
+      ]
+    },
+    "I52": {
+      "id": "I52",
+      "givenName": "Miri",
+      "surname": "Nushi",
+      "displayName": "Miri Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F18",
+      "spouseFamilyIds": []
+    },
+    "I115": {
+      "id": "I115",
+      "givenName": "Malart",
+      "surname": "Nushi",
+      "displayName": "Malart Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F38",
+      "spouseFamilyIds": []
+    },
+    "I98": {
+      "id": "I98",
+      "givenName": "Norik",
+      "surname": "Nushi",
+      "displayName": "Norik Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F33",
+      "spouseFamilyIds": []
+    },
+    "I104": {
+      "id": "I104",
+      "givenName": "Shyhrete",
+      "surname": "Nikoliqi",
+      "displayName": "Shyhrete Nikoliqi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F35"
+      ]
+    },
+    "I83": {
+      "id": "I83",
+      "givenName": "Flutur",
+      "surname": "Vula",
+      "displayName": "Flutur Vula",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F29"
+      ]
+    },
+    "I8": {
+      "id": "I8",
+      "givenName": "Qelepije",
+      "surname": "Xharra",
+      "displayName": "Qelepije Xharra",
+      "sex": "F",
+      "isDeceased": true,
+      "birth": {
+        "date": "1900",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "death": {
+        "date": "1969"
+      },
+      "spouseFamilyIds": [
+        "F4"
+      ]
+    },
+    "I11": {
+      "id": "I11",
+      "givenName": "Hydajet",
+      "surname": "Kerleshi",
+      "displayName": "Hydajet Kerleshi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F7"
+      ]
+    },
+    "I113": {
+      "id": "I113",
+      "givenName": "Gezime",
+      "surname": "Myftiu",
+      "displayName": "Gezime Myftiu",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F38"
+      ]
+    },
+    "I53": {
+      "id": "I53",
+      "givenName": "Leonora",
+      "surname": "Nushi",
+      "displayName": "Leonora Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F2",
+      "spouseFamilyIds": [
+        "F19"
+      ]
+    },
+    "I68": {
+      "id": "I68",
+      "givenName": "Arianit",
+      "surname": "Nushi",
+      "displayName": "Arianit Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F22",
+      "spouseFamilyIds": [
+        "F24"
+      ]
+    },
+    "I101": {
+      "id": "I101",
+      "givenName": "Suzana",
+      "surname": "Nushi",
+      "displayName": "Suzana Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F28",
+      "spouseFamilyIds": [
+        "F34"
+      ]
+    },
+    "I16": {
+      "id": "I16",
+      "givenName": "Arbnora",
+      "surname": "Nushi",
+      "displayName": "Arbnora Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F7",
+      "spouseFamilyIds": [
+        "F9"
+      ]
+    },
+    "I61": {
+      "id": "I61",
+      "givenName": "Amanda",
+      "surname": "Williams",
+      "displayName": "Amanda Williams",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F3"
+      ]
+    },
+    "I78": {
+      "id": "I78",
+      "givenName": "Arlinda",
+      "surname": "Kroqi",
+      "displayName": "Arlinda Kroqi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F26"
+      ]
+    },
+    "I124": {
+      "id": "I124",
+      "givenName": "Isuf",
+      "surname": "Xharra",
+      "displayName": "Isuf Xharra",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F40",
+      "spouseFamilyIds": []
+    },
+    "I94": {
+      "id": "I94",
+      "givenName": "Valbon",
+      "surname": "Gurmani",
+      "displayName": "Valbon Gurmani",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F32",
+      "spouseFamilyIds": []
+    },
+    "I34": {
+      "id": "I34",
+      "givenName": "Desea",
+      "surname": "Ramadani",
+      "displayName": "Desea Ramadani",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F13",
+      "spouseFamilyIds": []
+    },
+    "I6": {
+      "id": "I6",
+      "givenName": "Fatime",
+      "surname": "Kumnova",
+      "displayName": "Fatime Kumnova",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F2"
+      ]
+    },
+    "I9": {
+      "id": "I9",
+      "givenName": "Jakup",
+      "surname": "Nushi",
+      "displayName": "Jakup Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "parentFamilyId": "F6",
+      "spouseFamilyIds": [
+        "F5",
+        "F21"
+      ]
+    },
+    "I40": {
+      "id": "I40",
+      "givenName": "Nafije",
+      "surname": "Nushi",
+      "displayName": "Nafije Nushi",
+      "sex": "F",
+      "isDeceased": true,
+      "birth": {
+        "date": "1937",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "death": {
+        "date": "2022",
+        "place": {
+          "name": "Prizren, , Komuna e Prizrenit, Kosovo",
+          "alternateNames": [
+            "Perzeren",
+            "Perzerin",
+            "Prizren",
+            "Prizrena",
+            "Prizrenas",
+            "Prizreni",
+            "Përzeren",
+            "bryzrn",
+            "Призрен",
+            "بريزرن"
+          ],
+          "latitude": 42.213889,
+          "longitude": 20.739722
+        }
+      },
+      "parentFamilyId": "F4",
+      "spouseFamilyIds": [
+        "F15"
+      ]
+    },
+    "I119": {
+      "id": "I119",
+      "givenName": "Fjolla",
+      "surname": "Nushi",
+      "displayName": "Fjolla Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F39",
+      "spouseFamilyIds": []
+    },
+    "I103": {
+      "id": "I103",
+      "givenName": "Ramiz",
+      "surname": "Nushi",
+      "displayName": "Ramiz Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F23",
+      "spouseFamilyIds": [
+        "F35"
+      ]
+    },
+    "I24": {
+      "id": "I24",
+      "givenName": "Albi",
+      "surname": "Nushi",
+      "displayName": "Albi Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F10",
+      "spouseFamilyIds": [
+        "F11"
+      ]
+    },
+    "I126": {
+      "id": "I126",
+      "givenName": "Vezire",
+      "surname": "Xharra",
+      "displayName": "Vezire Xharra",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F40",
+      "spouseFamilyIds": []
+    },
+    "I56": {
+      "id": "I56",
+      "givenName": "Mrika",
+      "surname": "Sefa",
+      "displayName": "Mrika Sefa",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F19",
+      "spouseFamilyIds": []
+    },
+    "I2": {
+      "id": "I2",
+      "givenName": "Florent",
+      "surname": "Nushi",
+      "displayName": "Florent Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F2",
+      "spouseFamilyIds": [
+        "F1"
+      ]
+    },
+    "I90": {
+      "id": "I90",
+      "givenName": "Lorika",
+      "surname": "Nushi",
+      "displayName": "Lorika Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F29",
+      "spouseFamilyIds": []
+    },
+    "I79": {
+      "id": "I79",
+      "givenName": "Klit",
+      "surname": "Nushi",
+      "displayName": "Klit Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F26",
+      "spouseFamilyIds": []
+    },
+    "I58": {
+      "id": "I58",
+      "givenName": "Zgjim",
+      "surname": "Sefa",
+      "displayName": "Zgjim Sefa",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F19",
+      "spouseFamilyIds": []
+    },
+    "I71": {
+      "id": "I71",
+      "givenName": "Tomor",
+      "surname": "Jahjaga",
+      "displayName": "Tomor Jahjaga",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F25",
+      "spouseFamilyIds": []
+    },
+    "I105": {
+      "id": "I105",
+      "givenName": "Faik",
+      "surname": "Nushi",
+      "displayName": "Faik Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F35",
+      "spouseFamilyIds": [
+        "F36"
+      ]
+    },
+    "I64": {
+      "id": "I64",
+      "givenName": "Tahir",
+      "surname": "Nushi",
+      "displayName": "Tahir Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F21",
+      "spouseFamilyIds": [
+        "F23"
+      ]
+    },
+    "I85": {
+      "id": "I85",
+      "givenName": "Anida",
+      "surname": "Grazhda",
+      "displayName": "Anida Grazhda",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F30"
+      ]
+    },
+    "I10": {
+      "id": "I10",
+      "givenName": "Xhevdet",
+      "surname": "Nushi",
+      "displayName": "Xhevdet Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "parentFamilyId": "F4",
+      "spouseFamilyIds": [
+        "F7"
+      ]
+    },
+    "I51": {
+      "id": "I51",
+      "givenName": "Nol",
+      "surname": "Nushi",
+      "displayName": "Nol Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F18",
+      "spouseFamilyIds": []
+    },
+    "I49": {
+      "id": "I49",
+      "givenName": "Luan",
+      "surname": "Nushi",
+      "displayName": "Luan Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F2",
+      "spouseFamilyIds": [
+        "F18"
+      ]
+    },
+    "I108": {
+      "id": "I108",
+      "givenName": "Belzike",
+      "surname": "Nushi",
+      "displayName": "Belzike Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F35",
+      "spouseFamilyIds": []
+    },
+    "I93": {
+      "id": "I93",
+      "givenName": "Driton",
+      "surname": "Gurmani",
+      "displayName": "Driton Gurmani",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F32",
+      "spouseFamilyIds": []
+    },
+    "I39": {
+      "id": "I39",
+      "givenName": "Diari",
+      "surname": "Limani",
+      "displayName": "Diari Limani",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F14",
+      "spouseFamilyIds": []
+    },
+    "I47": {
+      "id": "I47",
+      "givenName": "Era",
+      "surname": "Ostrozubi",
+      "displayName": "Era Ostrozubi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F17",
+      "spouseFamilyIds": []
+    },
+    "I17": {
+      "id": "I17",
+      "givenName": "Aslan",
+      "surname": "Axhanela",
+      "displayName": "Aslan Axhanela",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F9"
+      ]
+    },
+    "I117": {
+      "id": "I117",
+      "givenName": "Mimoza",
+      "surname": "Lluka",
+      "displayName": "Mimoza Lluka",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F39"
+      ]
+    },
+    "I97": {
+      "id": "I97",
+      "givenName": "Vlora",
+      "surname": "Vokshi",
+      "displayName": "Vlora Vokshi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F33"
+      ]
+    },
+    "I18": {
+      "id": "I18",
+      "givenName": "Fisnik",
+      "surname": "Axhanela",
+      "displayName": "Fisnik Axhanela",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F9",
+      "spouseFamilyIds": []
+    },
+    "I91": {
+      "id": "I91",
+      "givenName": "Hyrije",
+      "surname": "Nushi",
+      "displayName": "Hyrije Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F28",
+      "spouseFamilyIds": [
+        "F32"
+      ]
+    },
+    "I22": {
+      "id": "I22",
+      "givenName": "Jakup",
+      "surname": "Nushi",
+      "displayName": "Jakup Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "date": "1938",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "death": {
+        "date": "1999"
+      },
+      "parentFamilyId": "F4",
+      "spouseFamilyIds": [
+        "F10"
+      ]
+    },
+    "I99": {
+      "id": "I99",
+      "givenName": "Venesa",
+      "surname": "Nushi",
+      "displayName": "Venesa Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F33",
+      "spouseFamilyIds": []
+    },
+    "I7": {
+      "id": "I7",
+      "givenName": "Adem",
+      "surname": "Nushi",
+      "displayName": "Adem Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "date": "1889",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "death": {
+        "date": "1953"
+      },
+      "parentFamilyId": "F5",
+      "spouseFamilyIds": [
+        "F4"
+      ]
+    },
+    "I114": {
+      "id": "I114",
+      "givenName": "Dijen",
+      "surname": "Nushi",
+      "displayName": "Dijen Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F38",
+      "spouseFamilyIds": []
+    },
+    "I45": {
+      "id": "I45",
+      "givenName": "Arian",
+      "surname": "Ostrozubi",
+      "displayName": "Arian Ostrozubi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F15",
+      "spouseFamilyIds": [
+        "F17"
+      ]
+    },
+    "I12": {
+      "id": "I12",
+      "givenName": "Arsim",
+      "surname": "Nushi",
+      "displayName": "Arsim Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F7",
+      "spouseFamilyIds": [
+        "F8"
+      ]
+    },
+    "I96": {
+      "id": "I96",
+      "givenName": "Shpresim",
+      "surname": "Nushi",
+      "displayName": "Shpresim Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F28",
+      "spouseFamilyIds": [
+        "F33"
+      ]
+    },
+    "I109": {
+      "id": "I109",
+      "givenName": "Avni",
+      "surname": "Nushi",
+      "displayName": "Avni Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F35",
+      "spouseFamilyIds": []
+    },
+    "I29": {
+      "id": "I29",
+      "givenName": "Njomza",
+      "surname": "Çarkaxhiu",
+      "displayName": "Njomza Çarkaxhiu",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F12"
+      ]
+    },
+    "I88": {
+      "id": "I88",
+      "givenName": "Linda",
+      "surname": "Nushi",
+      "displayName": "Linda Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F29",
+      "spouseFamilyIds": [
+        "F31"
+      ]
+    },
+    "I15": {
+      "id": "I15",
+      "givenName": "Olti",
+      "surname": "Nushi",
+      "displayName": "Olti Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F8",
+      "spouseFamilyIds": []
+    },
+    "I84": {
+      "id": "I84",
+      "givenName": "Leart",
+      "surname": "Nushi",
+      "displayName": "Leart Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F29",
+      "spouseFamilyIds": [
+        "F30"
+      ]
+    },
+    "I38": {
+      "id": "I38",
+      "givenName": "Toena",
+      "surname": "Limani",
+      "displayName": "Toena Limani",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F14",
+      "spouseFamilyIds": []
+    },
+    "I81": {
+      "id": "I81",
+      "givenName": "Sabrije",
+      "surname": "Zhubi",
+      "displayName": "Sabrije Zhubi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F28"
+      ]
+    },
+    "I112": {
+      "id": "I112",
+      "givenName": "Refki",
+      "surname": "Nushi",
+      "displayName": "Refki Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F37",
+      "spouseFamilyIds": [
+        "F38"
+      ]
+    },
+    "I87": {
+      "id": "I87",
+      "givenName": "Alea",
+      "surname": "Nushi",
+      "displayName": "Alea Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F30",
+      "spouseFamilyIds": []
+    },
+    "I69": {
+      "id": "I69",
+      "givenName": "Vajza",
+      "surname": "Nushi",
+      "displayName": "Vajza Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F22",
+      "spouseFamilyIds": []
+    },
+    "I74": {
+      "id": "I74",
+      "givenName": "Lea",
+      "surname": "Nushi",
+      "displayName": "Lea Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F24",
+      "spouseFamilyIds": []
+    },
+    "I3": {
+      "id": "I3",
+      "givenName": "Hilmije",
+      "surname": "Resyli",
+      "displayName": "Hilmije Resyli",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F1"
+      ]
+    },
+    "I19": {
+      "id": "I19",
+      "givenName": "Lumi",
+      "surname": "Axhanela",
+      "displayName": "Lumi Axhanela",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F9",
+      "spouseFamilyIds": []
+    },
+    "I23": {
+      "id": "I23",
+      "givenName": "Drita",
+      "surname": "Myha",
+      "displayName": "Drita Myha",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F10"
+      ]
+    },
+    "I127": {
+      "id": "I127",
+      "givenName": "Mehmet",
+      "surname": "Nushi",
+      "displayName": "Mehmet Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "spouseFamilyIds": [
+        "F6"
+      ]
+    },
+    "I125": {
+      "id": "I125",
+      "givenName": "Shazile",
+      "surname": "Xharra",
+      "displayName": "Shazile Xharra",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F40",
+      "spouseFamilyIds": []
+    },
+    "I14": {
+      "id": "I14",
+      "givenName": "Ledri",
+      "surname": "Nushi",
+      "displayName": "Ledri Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F8",
+      "spouseFamilyIds": []
+    },
+    "I37": {
+      "id": "I37",
+      "givenName": "Skender",
+      "surname": "Limani",
+      "displayName": "Skender Limani",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F14"
+      ]
+    },
+    "I43": {
+      "id": "I43",
+      "givenName": "Sharr",
+      "surname": "Vezgishi",
+      "displayName": "Sharr Vezgishi",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F16"
+      ]
+    },
+    "I92": {
+      "id": "I92",
+      "givenName": "Jakup",
+      "surname": "Gurmani",
+      "displayName": "Jakup Gurmani",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F32"
+      ]
+    },
+    "I77": {
+      "id": "I77",
+      "givenName": "Liridon",
+      "surname": "Nushi",
+      "displayName": "Liridon Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F27",
+      "spouseFamilyIds": [
+        "F26"
+      ]
+    },
+    "I111": {
+      "id": "I111",
+      "givenName": "Sajde",
+      "surname": "Gjoshi",
+      "displayName": "Sajde Gjoshi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F37"
+      ]
+    },
+    "I80": {
+      "id": "I80",
+      "givenName": "Vehbi",
+      "surname": "Nushi",
+      "displayName": "Vehbi Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F23",
+      "spouseFamilyIds": [
+        "F28"
+      ]
+    },
+    "I32": {
+      "id": "I32",
+      "givenName": "Laura",
+      "surname": "Nushi",
+      "displayName": "Laura Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F10",
+      "spouseFamilyIds": [
+        "F13"
+      ]
+    },
+    "I116": {
+      "id": "I116",
+      "givenName": "Jetmir",
+      "surname": "Nushi",
+      "displayName": "Jetmir Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F37",
+      "spouseFamilyIds": [
+        "F39"
+      ]
+    },
+    "I41": {
+      "id": "I41",
+      "givenName": "Fuat",
+      "surname": "Ostrozubi",
+      "displayName": "Fuat Ostrozubi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "place": {
+          "name": "Prizren, , Komuna e Prizrenit, Kosovo",
+          "alternateNames": [
+            "Perzeren",
+            "Perzerin",
+            "Prizren",
+            "Prizrena",
+            "Prizrenas",
+            "Prizreni",
+            "Përzeren",
+            "bryzrn",
+            "Призрен",
+            "بريزرن"
+          ],
+          "latitude": 42.213889,
+          "longitude": 20.739722
+        }
+      },
+      "spouseFamilyIds": [
+        "F15"
+      ]
+    },
+    "I57": {
+      "id": "I57",
+      "givenName": "Gjen",
+      "surname": "Sefa",
+      "displayName": "Gjen Sefa",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F19",
+      "spouseFamilyIds": []
+    },
+    "I30": {
+      "id": "I30",
+      "givenName": "Hana",
+      "surname": "Nushi",
+      "displayName": "Hana Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F12",
+      "spouseFamilyIds": []
+    },
+    "I73": {
+      "id": "I73",
+      "givenName": "Rubik",
+      "surname": "Nushi",
+      "displayName": "Rubik Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F24",
+      "spouseFamilyIds": []
+    },
+    "I26": {
+      "id": "I26",
+      "givenName": "Errita",
+      "surname": "Nushi",
+      "displayName": "Errita Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F11",
+      "spouseFamilyIds": []
+    },
+    "I110": {
+      "id": "I110",
+      "givenName": "Shaip",
+      "surname": "Nushi",
+      "displayName": "Shaip Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F23",
+      "spouseFamilyIds": [
+        "F37"
+      ]
+    },
+    "I120": {
+      "id": "I120",
+      "givenName": "Shkelzen",
+      "surname": "Nushi",
+      "displayName": "Shkelzen Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F37",
+      "spouseFamilyIds": []
+    },
+    "I25": {
+      "id": "I25",
+      "givenName": "Jeta",
+      "surname": "Shehu",
+      "displayName": "Jeta Shehu",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F11"
+      ]
+    },
+    "I102": {
+      "id": "I102",
+      "givenName": "Qazim",
+      "surname": "Axhemi",
+      "displayName": "Qazim Axhemi",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F34"
+      ]
+    },
+    "I106": {
+      "id": "I106",
+      "givenName": "Samile",
+      "surname": "Caka",
+      "displayName": "Samile Caka",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F36"
+      ]
+    },
+    "I123": {
+      "id": "I123",
+      "givenName": "Kadrush",
+      "surname": "Xharra",
+      "displayName": "Kadrush Xharra",
+      "sex": "U",
+      "isDeceased": false,
+      "parentFamilyId": "F40",
+      "spouseFamilyIds": []
+    },
+    "I5": {
+      "id": "I5",
+      "givenName": "Xhafer",
+      "surname": "Nushi",
+      "displayName": "Xhafer Nushi",
+      "sex": "M",
+      "isDeceased": true,
+      "birth": {
+        "date": "06 MAR 1928",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "death": {
+        "date": "21 SEP 1991",
+        "place": {
+          "name": "Gjakovë, , Komuna e Gjakovës, Kosovo",
+          "alternateNames": [
+            "Gjakova",
+            "Gjakove",
+            "Gjakovë"
+          ],
+          "latitude": 42.380278,
+          "longitude": 20.430833
+        }
+      },
+      "parentFamilyId": "F4",
+      "spouseFamilyIds": [
+        "F2"
+      ]
+    },
+    "I121": {
+      "id": "I121",
+      "givenName": "Hedije",
+      "surname": "Nushi",
+      "displayName": "Hedije Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F37",
+      "spouseFamilyIds": [
+        "F40"
+      ]
+    },
+    "I60": {
+      "id": "I60",
+      "givenName": "Fatime",
+      "surname": "Nushi",
+      "displayName": "Fatime Nushi",
+      "sex": "F",
+      "isDeceased": true,
+      "spouseFamilyIds": [
+        "F20"
+      ]
+    },
+    "I65": {
+      "id": "I65",
+      "givenName": "Naxhije",
+      "surname": "Nushi",
+      "displayName": "Naxhije Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F23"
+      ]
+    },
+    "I118": {
+      "id": "I118",
+      "givenName": "Rrita",
+      "surname": "Nushi",
+      "displayName": "Rrita Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F39",
+      "spouseFamilyIds": []
+    },
+    "I75": {
+      "id": "I75",
+      "givenName": "Parta",
+      "surname": "Jahjaga",
+      "displayName": "Parta Jahjaga",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F25",
+      "spouseFamilyIds": []
+    },
+    "I27": {
+      "id": "I27",
+      "givenName": "Nina",
+      "surname": "Nushi",
+      "displayName": "Nina Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F11",
+      "spouseFamilyIds": []
+    },
+    "I1": {
+      "id": "I1",
+      "givenName": "Mali",
+      "surname": "",
+      "displayName": "Mali",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F1",
+      "spouseFamilyIds": []
+    },
+    "I4": {
+      "id": "I4",
+      "givenName": "Jon",
+      "surname": "Nushi",
+      "displayName": "Jon Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F1",
+      "spouseFamilyIds": [
+        "F3"
+      ]
+    },
+    "I72": {
+      "id": "I72",
+      "givenName": "Astrit",
+      "surname": "Jahjaga",
+      "displayName": "Astrit Jahjaga",
+      "sex": "M",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F25"
+      ]
+    },
+    "I55": {
+      "id": "I55",
+      "givenName": "Norika",
+      "surname": "Sefa",
+      "displayName": "Norika Sefa",
+      "sex": "F",
+      "isDeceased": false,
+      "parentFamilyId": "F19",
+      "spouseFamilyIds": []
+    },
+    "I21": {
+      "id": "I21",
+      "givenName": "Artan",
+      "surname": "Nushi",
+      "displayName": "Artan Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F7",
+      "spouseFamilyIds": []
+    },
+    "I70": {
+      "id": "I70",
+      "givenName": "Anila",
+      "surname": "Marseli",
+      "displayName": "Anila Marseli",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F24"
+      ]
+    },
+    "I66": {
+      "id": "I66",
+      "givenName": "Lule",
+      "surname": "Nushi",
+      "displayName": "Lule Nushi",
+      "sex": "F",
+      "isDeceased": false,
+      "spouseFamilyIds": [
+        "F22"
+      ]
+    },
+    "I31": {
+      "id": "I31",
+      "givenName": "Drrini",
+      "surname": "Nushi",
+      "displayName": "Drrini Nushi",
+      "sex": "M",
+      "isDeceased": false,
+      "parentFamilyId": "F12",
+      "spouseFamilyIds": []
+    }
+  },
+  "families": {
+    "F13": {
+      "id": "F13",
+      "husbandId": "I33",
+      "wifeId": "I32",
+      "childIds": [
+        "I35",
+        "I34"
+      ],
+      "marriage": {}
+    },
+    "F19": {
+      "id": "F19",
+      "husbandId": "I54",
+      "wifeId": "I53",
+      "childIds": [
+        "I56",
+        "I55",
+        "I57",
+        "I58"
+      ],
+      "marriage": {}
+    },
+    "F18": {
+      "id": "F18",
+      "husbandId": "I49",
+      "wifeId": "I50",
+      "childIds": [
+        "I51",
+        "I52"
+      ],
+      "marriage": {}
+    },
+    "F40": {
+      "id": "F40",
+      "husbandId": "I122",
+      "wifeId": "I121",
+      "childIds": [
+        "I124",
+        "I123",
+        "I125",
+        "I126"
+      ],
+      "marriage": {}
+    },
+    "F17": {
+      "id": "F17",
+      "husbandId": "I45",
+      "wifeId": "I46",
+      "childIds": [
+        "I47",
+        "I48"
+      ],
+      "marriage": {}
+    },
+    "F9": {
+      "id": "F9",
+      "husbandId": "I17",
+      "wifeId": "I16",
+      "childIds": [
+        "I18",
+        "I20",
+        "I19"
+      ],
+      "marriage": {}
+    },
+    "F32": {
+      "id": "F32",
+      "husbandId": "I92",
+      "wifeId": "I91",
+      "childIds": [
+        "I95",
+        "I93",
+        "I94"
+      ],
+      "marriage": {}
+    },
+    "F35": {
+      "id": "F35",
+      "husbandId": "I103",
+      "wifeId": "I104",
+      "childIds": [
+        "I109",
+        "I105",
+        "I107",
+        "I108"
+      ],
+      "marriage": {}
+    },
+    "F27": {
+      "id": "F27",
+      "husbandId": "I63",
+      "wifeId": "I76",
+      "childIds": [
+        "I77"
+      ],
+      "marriage": {}
+    },
+    "F20": {
+      "id": "F20",
+      "husbandId": "I59",
+      "wifeId": "I60",
+      "childIds": [
+        "I63",
+        "I62"
+      ],
+      "marriage": {}
+    },
+    "F8": {
+      "id": "F8",
+      "husbandId": "I12",
+      "wifeId": "I13",
+      "childIds": [
+        "I14",
+        "I15"
+      ],
+      "marriage": {}
+    },
+    "F31": {
+      "id": "F31",
+      "husbandId": "I89",
+      "wifeId": "I88",
+      "childIds": [],
+      "marriage": {}
+    },
+    "F30": {
+      "id": "F30",
+      "husbandId": "I84",
+      "wifeId": "I85",
+      "childIds": [
+        "I87",
+        "I86"
+      ],
+      "marriage": {}
+    },
+    "F14": {
+      "id": "F14",
+      "husbandId": "I37",
+      "wifeId": "I36",
+      "childIds": [
+        "I39",
+        "I38"
+      ],
+      "marriage": {}
+    },
+    "F10": {
+      "id": "F10",
+      "husbandId": "I22",
+      "wifeId": "I23",
+      "childIds": [
+        "I24",
+        "I28",
+        "I32",
+        "I36"
+      ],
+      "marriage": {}
+    },
+    "F16": {
+      "id": "F16",
+      "husbandId": "I43",
+      "wifeId": "I42",
+      "childIds": [
+        "I44"
+      ],
+      "marriage": {}
+    },
+    "F15": {
+      "id": "F15",
+      "husbandId": "I41",
+      "wifeId": "I40",
+      "childIds": [
+        "I42",
+        "I45"
+      ],
+      "marriage": {}
+    },
+    "F21": {
+      "id": "F21",
+      "husbandId": "I9",
+      "childIds": [
+        "I59",
+        "I64"
+      ]
+    },
+    "F25": {
+      "id": "F25",
+      "husbandId": "I72",
+      "wifeId": "I67",
+      "childIds": [
+        "I75",
+        "I71"
+      ],
+      "marriage": {}
+    },
+    "F22": {
+      "id": "F22",
+      "husbandId": "I62",
+      "wifeId": "I66",
+      "childIds": [
+        "I67",
+        "I69",
+        "I68"
+      ],
+      "marriage": {}
+    },
+    "F29": {
+      "id": "F29",
+      "husbandId": "I82",
+      "wifeId": "I83",
+      "childIds": [
+        "I84",
+        "I88",
+        "I90"
+      ],
+      "marriage": {}
+    },
+    "F28": {
+      "id": "F28",
+      "husbandId": "I80",
+      "wifeId": "I81",
+      "childIds": [
+        "I82",
+        "I96",
+        "I101",
+        "I91"
+      ],
+      "marriage": {}
+    },
+    "F33": {
+      "id": "F33",
+      "husbandId": "I96",
+      "wifeId": "I97",
+      "childIds": [
+        "I98",
+        "I99",
+        "I100"
+      ],
+      "marriage": {}
+    },
+    "F12": {
+      "id": "F12",
+      "husbandId": "I28",
+      "wifeId": "I29",
+      "childIds": [
+        "I31",
+        "I30"
+      ],
+      "marriage": {}
+    },
+    "F38": {
+      "id": "F38",
+      "husbandId": "I112",
+      "wifeId": "I113",
+      "childIds": [
+        "I115",
+        "I114"
+      ],
+      "marriage": {}
+    },
+    "F4": {
+      "id": "F4",
+      "husbandId": "I7",
+      "wifeId": "I8",
+      "childIds": [
+        "I10",
+        "I5",
+        "I40",
+        "I22"
+      ],
+      "marriage": {}
+    },
+    "F7": {
+      "id": "F7",
+      "husbandId": "I10",
+      "wifeId": "I11",
+      "childIds": [
+        "I16",
+        "I21",
+        "I12"
+      ],
+      "marriage": {}
+    },
+    "F2": {
+      "id": "F2",
+      "husbandId": "I5",
+      "wifeId": "I6",
+      "childIds": [
+        "I49",
+        "I53",
+        "I2"
+      ],
+      "marriage": {}
+    },
+    "F24": {
+      "id": "F24",
+      "husbandId": "I68",
+      "wifeId": "I70",
+      "childIds": [
+        "I74",
+        "I73"
+      ],
+      "marriage": {}
+    },
+    "F34": {
+      "id": "F34",
+      "husbandId": "I102",
+      "wifeId": "I101",
+      "childIds": [],
+      "marriage": {}
+    },
+    "F3": {
+      "id": "F3",
+      "husbandId": "I4",
+      "wifeId": "I61",
+      "childIds": [
+        "93741100"
+      ]
+    },
+    "F26": {
+      "id": "F26",
+      "husbandId": "I77",
+      "wifeId": "I78",
+      "childIds": [
+        "I79"
+      ],
+      "marriage": {}
+    },
+    "F5": {
+      "id": "F5",
+      "husbandId": "I9",
+      "childIds": [
+        "I7"
+      ]
+    },
+    "F6": {
+      "id": "F6",
+      "husbandId": "I127",
+      "childIds": [
+        "I9"
+      ]
+    },
+    "F39": {
+      "id": "F39",
+      "husbandId": "I116",
+      "wifeId": "I117",
+      "childIds": [
+        "I119",
+        "I118"
+      ],
+      "marriage": {}
+    },
+    "F23": {
+      "id": "F23",
+      "husbandId": "I64",
+      "wifeId": "I65",
+      "childIds": [
+        "I103",
+        "I110",
+        "I80"
+      ]
+    },
+    "F11": {
+      "id": "F11",
+      "husbandId": "I24",
+      "wifeId": "I25",
+      "childIds": [
+        "I26",
+        "I27"
+      ],
+      "marriage": {}
+    },
+    "F1": {
+      "id": "F1",
+      "husbandId": "I2",
+      "wifeId": "I3",
+      "childIds": [
+        "I4",
+        "I1"
+      ],
+      "marriage": {}
+    },
+    "F36": {
+      "id": "F36",
+      "husbandId": "I105",
+      "wifeId": "I106",
+      "childIds": [],
+      "marriage": {}
+    },
+    "F37": {
+      "id": "F37",
+      "husbandId": "I110",
+      "wifeId": "I111",
+      "childIds": [
+        "I121",
+        "I116",
+        "I112",
+        "I120"
+      ],
+      "marriage": {}
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-08-23T01:05:36.658Z",
+    "totalPeople": 128,
+    "totalFamilies": 40
+  }
+}
