@@ -1,0 +1,17 @@
+{
+  "threshold": 0,
+  "minLines": 5,
+  "minTokens": 50,
+  "reporters": ["console"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/out/**",
+    "**/coverage/**",
+    "**/Nushi-Genealogy/**",
+    "**/public/**",
+    "**/*.d.ts",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}

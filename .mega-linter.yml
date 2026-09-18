@@ -1,0 +1,42 @@
+# .mega-linter.yml
+# Configuration documentation: https://megalinter.io/latest/config-file/
+
+FLAVOR: javascript
+
+# Exclude generated artifacts, databases, external fixtures, and node dependencies
+FILTER_REGEX_EXCLUDE: |
+  (?x)
+  (\.next/|
+   out/|
+   node_modules/|
+   coverage/|
+   public/|
+   Nushi-Genealogy/|
+   .*\.zip$|
+   .*\.ged$|
+   .*\.svg$|
+   package-lock\.json$|
+   settings\.local\.json$)
+
+# Enabled linters (covering Code Climate functionality)
+ENABLE_LINTERS:
+  # Duplication detection (Code Climate equivalent)
+  - REPOSITORY_JSCPD
+  # Security secret scanning
+  - REPOSITORY_GITLEAKS
+  # JavaScript / TypeScript code quality (reads repo .eslintrc.json)
+  - TYPESCRIPT_ES
+  - JAVASCRIPT_ES
+  # Project configuration and documentation
+  - JSON_JSONLINT
+  - YAML_YAMLLINT
+  - MARKDOWN_MARKDOWNLINT
+
+# Reporters
+SHOW_ELAPSED_TIME: true
+FILEIO_REPORTER: false
+GITHUB_STATUS_REPORTER: true
+GITHUB_COMMENT_REPORTER: true
+
+# Link JSCPD directly to repository config
+REPOSITORY_JSCPD_CONFIG_FILE: .jscpd.json
