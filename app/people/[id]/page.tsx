@@ -1,55 +1,22 @@
-/**
- * @file page.tsx
- * @description Static person profile page rendering the Asymmetric 2-Column Swiss Grid (PersonProfileTemplate).
- */
-
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllPersonIds, getPerson, getRelatives } from "@/lib/data/genealogy";
-import { PersonProfileTemplate } from "@/components/templates/PersonProfileTemplate";
+import { getArchive } from "@/lib/presentation/get-archive";
+import { PersonProfile } from "@/components/people/PersonProfile";
 
-interface PageProps {
-  params: Promise<{ id: string }>;
-}
+interface PageProps { params: Promise<{ id: string }> }
+export function generateStaticParams() { return getAllPersonIds().map((id) => ({ id })); }
+export const dynamicParams = false;
 
-/**
- * Enumerates all person IDs for static pre-rendering at build time.
- */
-export async function generateStaticParams() {
-  const ids = getAllPersonIds();
-  return ids.map((id) => ({ id }));
-}
-
-/**
- * Dynamic metadata generator for person detail pages.
- */
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const person = getPerson(id);
-
-  if (!person) {
-    return {
-      title: "Record Not Found — Fisi Genealogy",
-    };
-  }
-
-  return {
-    title: `${person.displayName} [${person.id}] — Fisi Genealogy`,
-    description: `Genealogical archive records and kinship relations for ${person.displayName}.`,
-  };
+  return { title: person ? `${person.displayName} · ${person.id}` : "Record Not Found", description: person ? `Recorded vital events and family relationships for ${person.displayName}.` : undefined };
 }
 
-export default async function PersonDetailPage({ params }: PageProps) {
+export default async function PersonPage({ params }: PageProps) {
   const { id } = await params;
-  const person = getPerson(id);
-
-  if (!person) {
-    notFound();
-  }
-
-  const relatives = getRelatives(id);
-
-  return <PersonProfileTemplate person={person} relatives={relatives} />;
+  const person = getArchive().people.find((record) => record.id === id);
+  if (!person) notFound();
+  return <PersonProfile person={person} relatives={getRelatives(id)} />;
 }

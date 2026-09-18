@@ -1,97 +1,51 @@
-/**
- * @file tokens.css
- * @description Design Token Architecture: Primitives, Semantics, and Component Tokens.
- * Based on Teenage Engineering / Braun / Swiss International Typographic Style.
- */
-
+/* Editorial & Refined — the semantic palette in design.md. RGB channels allow
+   Tailwind's opacity modifiers without a separate, competing color palette. */
 :root {
-  /* ==========================================================================
-     1. Primitive Tokens (Raw Scales)
-     ========================================================================== */
-
-  /* Surfaces & Canvas */
-  --primitive-chalk-50: #FAF9F5;
-  --primitive-chalk-100: #F4F4EE;
-  --primitive-chalk-200: #EAEAE2;
-  --primitive-chalk-300: #E0E0D6;
-  --primitive-white: #FFFFFF;
-
-  /* Neutrals & Inks */
-  --primitive-stone-200: #E5E5DF;
-  --primitive-stone-300: #D6D6CC;
-  --primitive-stone-400: #A8A89E;
-  --primitive-graphite-600: #666660;
-  --primitive-graphite-700: #444440;
-  --primitive-graphite-800: #222220;
-  --primitive-graphite-900: #121212;
-
-  /* Accent & Functional Signals */
-  --primitive-orange-500: #FF4800; /* Iconic Braun / TE Signal Orange */
-  --primitive-orange-600: #E03E00;
-  --primitive-orange-100: #FFF0EB;
-  --primitive-emerald-600: #059669;
-  --primitive-emerald-100: #ECFDF5;
-  --primitive-amber-600: #D97706;
-  --primitive-amber-100: #FEF3C7;
-
-  /* Typography Stacks (Univers Grotesque & OCR-B Monospace) */
-  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-space-mono: 'Space Mono', 'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
-
-  /* Borders & Radii */
-  --primitive-border-hairline: 1px solid var(--primitive-stone-300);
-  --primitive-radius-none: 0px;
-  --primitive-radius-sm: 2px;
-  --primitive-radius-md: 4px;
-
-  /* ==========================================================================
-     2. Semantic Tokens (Intent-Driven)
-     ========================================================================== */
-
-  /* Surface Mappings */
-  --surface-canvas: var(--primitive-chalk-100);
-  --surface-card: var(--primitive-white);
-  --surface-card-subtle: var(--primitive-chalk-50);
-  --surface-muted: var(--primitive-chalk-200);
-  --surface-overlay: rgba(244, 244, 238, 0.94);
-
-  /* Typography Mappings */
-  --text-primary: var(--primitive-graphite-900);
-  --text-secondary: var(--primitive-graphite-700);
-  --text-muted: var(--primitive-graphite-600);
-  --text-inverse: var(--primitive-white);
-  --text-accent: var(--primitive-orange-500);
-
-  /* Border Mappings */
-  --border-hairline: var(--primitive-stone-300);
-  --border-hairline-light: var(--primitive-stone-200);
-  --border-accent: var(--primitive-orange-500);
-  --border-focus: var(--primitive-graphite-900);
-
-  /* Functional Accents */
-  --accent-signal: var(--primitive-orange-500);
-  --accent-signal-hover: var(--primitive-orange-600);
-  --accent-signal-subtle: var(--primitive-orange-100);
-
-  /* Status Tokens */
-  --status-living-text: var(--primitive-emerald-600);
-  --status-living-bg: var(--primitive-emerald-100);
-  --status-deceased-text: var(--primitive-graphite-700);
-  --status-deceased-bg: var(--primitive-chalk-200);
-  --status-protected-text: var(--primitive-amber-600);
-  --status-protected-bg: var(--primitive-amber-100);
-
-  /* ==========================================================================
-     3. Component Specific Tokens
-     ========================================================================== */
-  --button-primary-bg: var(--primitive-orange-500);
-  --button-primary-hover: var(--primitive-orange-600);
-  --button-primary-text: var(--primitive-white);
-
-  --table-row-hover: var(--primitive-chalk-50);
-  --table-header-bg: var(--primitive-chalk-100);
-
-  --badge-mono-bg: var(--primitive-chalk-200);
-  --badge-mono-text: var(--primitive-graphite-800);
-  --badge-mono-border: var(--primitive-stone-300);
+  --surface: 251 249 246;
+  --surface-dim: 219 218 215;
+  --surface-bright: 251 249 246;
+  --surface-container-lowest: 255 255 255;
+  --surface-container-low: 245 243 240;
+  --surface-container: 239 238 235;
+  --surface-container-high: 234 232 229;
+  --surface-container-highest: 228 226 223;
+  --on-surface: 27 28 26;
+  --on-surface-variant: 78 68 67;
+  --inverse-surface: 48 49 47;
+  --inverse-on-surface: 242 240 237;
+  --outline: 128 116 114;
+  --outline-variant: 210 195 193;
+  --surface-tint: 107 91 88;
+  --primary: 0 0 0;
+  --on-primary: 255 255 255;
+  --primary-container: 37 25 23;
+  --on-primary-container: 146 128 125;
+  --inverse-primary: 215 194 190;
+  --secondary: 100 93 85;
+  --on-secondary: 255 255 255;
+  --secondary-container: 235 225 214;
+  --on-secondary-container: 106 99 91;
+  --tertiary: 0 0 0;
+  --on-tertiary: 255 255 255;
+  --tertiary-container: 44 23 0;
+  --on-tertiary-container: 160 125 89;
+  --error: 186 26 26;
+  --on-error: 255 255 255;
+  --error-container: 255 218 214;
+  --on-error-container: 147 0 10;
+  --primary-fixed: 244 221 218;
+  --primary-fixed-dim: 215 194 190;
+  --on-primary-fixed: 37 25 23;
+  --on-primary-fixed-variant: 82 67 65;
+  --secondary-fixed: 235 225 214;
+  --secondary-fixed-dim: 207 197 187;
+  --on-secondary-fixed: 32 27 21;
+  --on-secondary-fixed-variant: 76 70 62;
+  --tertiary-fixed: 255 220 187;
+  --tertiary-fixed-dim: 232 191 150;
+  --on-tertiary-fixed: 44 23 0;
+  --on-tertiary-fixed-variant: 93 65 34;
+  --background: 251 249 246;
+  --on-background: 27 28 26;
+  --surface-variant: 228 226 223;
 }

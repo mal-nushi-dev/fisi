@@ -1,43 +1,15 @@
-/**
- * @file page.tsx
- * @description People directory page rendering the dual-view Swiss ledger and grid (DirectoryTemplate).
- */
+import { Suspense } from "react";
+import { PeopleDirectory } from "@/components/people/PeopleDirectory";
+import { getArchive } from "@/lib/presentation/get-archive";
 
-import React, { Suspense } from "react";
-import { getAllPeople } from "@/lib/data/genealogy";
-import { extractYear } from "@/lib/privacy/visibility";
-import { DirectoryPersonItem } from "@/components/molecules/PersonCard";
-import { DirectoryTemplate } from "@/components/templates/DirectoryTemplate";
+export const metadata = { title: "People & Biographical Index", description: "Browse people, generations, and branches in the Nushi family archive." };
 
-export const metadata = {
-  title: "People Directory — Fisi Genealogy",
-  description: "Search and browse all verified individuals in the Fisi family archive.",
-};
-
-export default function PeopleDirectoryPage() {
-  const people = getAllPeople();
-
-  const directoryItems: DirectoryPersonItem[] = people.map((p) => ({
-    id: p.id,
-    displayName: p.displayName,
-    givenName: p.givenName,
-    surname: p.surname,
-    sex: p.sex,
-    birthYear: extractYear(p.birth?.date),
-    deathYear: extractYear(p.death?.date),
-    isDeceased: p.isDeceased,
-    photoUrl: p.photoUrl,
-  }));
-
+export default function PeoplePage() {
   return (
-    <Suspense
-      fallback={
-        <div className="bg-white border border-[var(--primitive-stone-300)] p-12 text-center rounded-sm font-mono text-xs text-[var(--primitive-graphite-600)]">
-          LOADING ARCHIVE DIRECTORY...
-        </div>
-      }
-    >
-      <DirectoryTemplate people={directoryItems} />
-    </Suspense>
+    <main id="main-content" className="mx-auto w-full max-w-7xl flex-1 px-4 py-10 sm:px-6 md:py-14 lg:px-8">
+      <Suspense fallback={<p className="py-16 text-center text-secondary">Opening the people index…</p>}>
+        <PeopleDirectory archive={getArchive()} />
+      </Suspense>
+    </main>
   );
 }

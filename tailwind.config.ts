@@ -1,54 +1,38 @@
 import type { Config } from "tailwindcss";
 
+const colorNames = [
+  "surface", "surface-dim", "surface-bright", "surface-container-lowest",
+  "surface-container-low", "surface-container", "surface-container-high",
+  "surface-container-highest", "on-surface", "on-surface-variant",
+  "inverse-surface", "inverse-on-surface", "outline", "outline-variant",
+  "surface-tint", "primary", "on-primary", "primary-container",
+  "on-primary-container", "inverse-primary", "secondary", "on-secondary",
+  "secondary-container", "on-secondary-container", "tertiary", "on-tertiary",
+  "tertiary-container", "on-tertiary-container", "error", "on-error",
+  "error-container", "on-error-container", "primary-fixed", "primary-fixed-dim",
+  "on-primary-fixed", "on-primary-fixed-variant", "secondary-fixed",
+  "secondary-fixed-dim", "on-secondary-fixed", "on-secondary-fixed-variant",
+  "tertiary-fixed", "tertiary-fixed-dim", "on-tertiary-fixed",
+  "on-tertiary-fixed-variant", "background", "on-background", "surface-variant",
+];
+
 const config: Config = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./styles/**/*.{js,ts,jsx,tsx,mdx,css}",
-  ],
+  content: ["./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    borderRadius: { none: "0px", sm: "0px", DEFAULT: "0px", md: "0px", lg: "0px", xl: "0px", "2xl": "0px", "3xl": "0px", full: "0px" },
     extend: {
-      colors: {
-        canvas: "var(--surface-canvas)",
-        card: "var(--surface-card)",
-        "card-subtle": "var(--surface-card-subtle)",
-        "muted-surface": "var(--surface-muted)",
-        ink: "var(--text-primary)",
-        "ink-secondary": "var(--text-secondary)",
-        "ink-muted": "var(--text-muted)",
-        hairline: "var(--border-hairline)",
-        "hairline-light": "var(--border-hairline-light)",
-        signal: "var(--accent-signal)",
-        "signal-hover": "var(--accent-signal-hover)",
-        "signal-subtle": "var(--accent-signal-subtle)",
-      },
+      colors: Object.fromEntries(colorNames.map((name) => [name, `rgb(var(--${name}) / <alpha-value>)`])),
       fontFamily: {
-        sans: [
-          "var(--font-inter)",
-          "Inter",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Helvetica Neue",
-          "Arial",
-          "sans-serif",
-        ],
-        mono: [
-          "var(--font-space-mono)",
-          "Space Mono",
-          "JetBrains Mono",
-          "Courier New",
-          "monospace",
-        ],
+        headline: ["var(--font-cormorant)", "Georgia", "serif"],
+        display: ["var(--font-cormorant)", "Georgia", "serif"],
+        body: ["var(--font-jakarta)", "Arial", "sans-serif"],
+        label: ["var(--font-jakarta)", "Arial", "sans-serif"],
+        sans: ["var(--font-jakarta)", "Arial", "sans-serif"],
       },
-      borderRadius: {
-        none: "0px",
-        sm: "2px",
-        DEFAULT: "2px",
-      },
-      borderWidth: {
-        hairline: "1px",
+      boxShadow: {
+        "search-float": "0 2px 24px -4px rgba(27, 28, 26, 0.08)",
+        "panel-float": "0 4px 32px -4px rgba(27, 28, 26, 0.12)",
+        "nav-float": "0 8px 30px rgba(27, 28, 26, 0.04)",
       },
     },
   },
