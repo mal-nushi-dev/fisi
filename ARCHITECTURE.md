@@ -31,6 +31,17 @@ Tree layout uses Dagre for ordering and actual generation columns for horizontal
 
 `html.html` supplies the page compositions and home search states. `design.md` is authoritative for semantic colors, Cormorant Garamond headlines, Plus Jakarta Sans body text, square geometry, and warm diffuse shadows. Fonts are self-hosted by `next/font`; Tailwind is compiled locally. Unsupported placeholder destinations, translation, exports, and alternate tree modes are omitted.
 
+## Code quality and maintainability
+
+- `npm run lint`: ESLint with `next/core-web-vitals`, `next/typescript`, and maintainability guardrails:
+  - Cyclomatic complexity threshold: `15`
+  - Max lines per function: `75` (excluding blank lines and comments)
+  - Max block nesting depth: `4`
+  - Max function parameters: `4`
+  - Max nested callbacks: `3`
+- `npm run duplication`: Copy-paste token duplication analysis via `jscpd`
+- Continuous Integration: Automated MegaLinter quality gate checking ESLint, duplication (`jscpd`), secrets (`gitleaks`), JSON, and YAML on pull requests and pushes to `main`.
+
 ## Build and verification
 
 - `npm install`

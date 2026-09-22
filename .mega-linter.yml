@@ -12,6 +12,7 @@ FILTER_REGEX_EXCLUDE: |
    coverage/|
    public/|
    Nushi-Genealogy/|
+   data/generated/|
    .*\.zip$|
    .*\.ged$|
    .*\.svg$|

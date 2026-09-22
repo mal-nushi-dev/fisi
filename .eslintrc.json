@@ -7,6 +7,7 @@
     "node_modules/",
     "public/",
     "Nushi-Genealogy/",
+    "data/generated/",
     "*.d.ts"
   ],
   "rules": {
@@ -17,6 +18,27 @@
         "varsIgnorePattern": "^_",
         "caughtErrorsIgnorePattern": "^_"
       }
-    ]
-  }
+    ],
+    "complexity": ["warn", 15],
+    "max-lines-per-function": [
+      "warn",
+      {
+        "max": 75,
+        "skipBlankLines": true,
+        "skipComments": true,
+        "IIFEs": true
+      }
+    ],
+    "max-depth": ["warn", 4],
+    "max-params": ["warn", 4],
+    "max-nested-callbacks": ["warn", 3]
+  },
+  "overrides": [
+    {
+      "files": ["test/**", "**/*.test.ts", "**/*.test.tsx"],
+      "rules": {
+        "max-lines-per-function": "off"
+      }
+    }
+  ]
 }
