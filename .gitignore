@@ -36,3 +36,4 @@ settings.local.json
 
 # Redundant archives
 Nushi-Genealogy.zip
+.agents/mcp_config.json
