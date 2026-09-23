@@ -10,6 +10,7 @@
     "**/coverage/**",
     "**/Nushi-Genealogy/**",
     "**/public/**",
+    "**/.agents/**",
     "**/*.d.ts",
     "**/*.test.ts",
     "**/*.test.tsx"
