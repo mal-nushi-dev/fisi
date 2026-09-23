@@ -13,6 +13,7 @@ FILTER_REGEX_EXCLUDE: |
    public/|
    Nushi-Genealogy/|
    data/generated/|
+   \.agents/|
    .*\.zip$|
    .*\.ged$|
    .*\.svg$|

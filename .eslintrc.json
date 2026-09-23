@@ -8,6 +8,7 @@
     "public/",
     "Nushi-Genealogy/",
     "data/generated/",
+    ".agents/",
     "*.d.ts"
   ],
   "rules": {
