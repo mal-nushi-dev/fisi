@@ -72,14 +72,16 @@ export function HomeSearch({ archive }: { archive: ArchiveModel }) {
   }, [open, activeIndex, listId]);
 
   useEffect(() => {
-    try {
-      const saved: unknown = JSON.parse(sessionStorage.getItem(RECENT_SEARCHES_KEY) || "[]");
-      if (Array.isArray(saved)) {
-        setRecentSearches([...new Set(saved.filter((entry): entry is string => typeof entry === "string" && entry.trim().length > 0))].slice(0, 5));
+    queueMicrotask(() => {
+      try {
+        const saved: unknown = JSON.parse(sessionStorage.getItem(RECENT_SEARCHES_KEY) || "[]");
+        if (Array.isArray(saved)) {
+          setRecentSearches([...new Set(saved.filter((entry): entry is string => typeof entry === "string" && entry.trim().length > 0))].slice(0, 5));
+        }
+      } catch {
+        // Search remains usable when browser storage is unavailable or malformed.
       }
-    } catch {
-      // Search remains usable when browser storage is unavailable or malformed.
-    }
+    });
   }, []);
 
   useEffect(() => {

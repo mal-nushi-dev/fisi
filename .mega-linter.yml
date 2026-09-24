@@ -25,7 +25,7 @@ ENABLE_LINTERS:
   # Duplication detection (Code Climate equivalent)
   - REPOSITORY_JSCPD
   # Security secret scanning
-  - REPOSITORY_GITLEAKS
+  - REPOSITORY_BETTERLEAKS
   # JavaScript / TypeScript code quality (reads repo .eslintrc.json)
   - TYPESCRIPT_ES
   - JAVASCRIPT_ES

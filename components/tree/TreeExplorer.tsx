@@ -19,6 +19,11 @@ export function TreeExplorer({ archive }: { archive: ArchiveModel }) {
   const requestedPerson = searchParams.get("person") ?? "";
   const requestedBranch = searchParams.get("branch") ?? "";
   const [collapsed, setCollapsed] = useState(false);
+  const [prevRequestedPerson, setPrevRequestedPerson] = useState(requestedPerson);
+  if (requestedPerson !== prevRequestedPerson) {
+    setPrevRequestedPerson(requestedPerson);
+    setCollapsed(false);
+  }
   const [scalePercent, setScalePercent] = useState(100);
   const [ready, setReady] = useState(false);
   const [viewportSize, setViewportSize] = useState({ width: 0, height: 0 });
@@ -92,8 +97,6 @@ export function TreeExplorer({ archive }: { archive: ArchiveModel }) {
     });
     return () => cancelAnimationFrame(frame);
   }, [ready, layout, selected, centerNode, fitGraph, fitRequest]);
-
-  useEffect(() => { setCollapsed(false); }, [requestedPerson]);
 
   function onCanvasKeyDown(event: KeyboardEvent<HTMLDivElement>) {
     if (event.target !== event.currentTarget || !transformRef.current) return;
