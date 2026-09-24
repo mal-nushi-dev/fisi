@@ -1,0 +1,41 @@
+version: 2
+updates:
+  # Maintain JavaScript and Node.js dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 10
+    groups:
+      # Keep vitest and its companion plugins/tools synchronized to prevent peer dependency conflicts
+      vitest-ecosystem:
+        patterns:
+          - "vitest*"
+          - "@vitest/*"
+      # Group routine minor and patch updates together to minimize CI noise
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  # Maintain GitHub Actions workflow dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
