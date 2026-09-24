@@ -18,6 +18,11 @@ const config = [
     ],
   },
   {
+    settings: {
+      react: {
+        version: "19.3.0",
+      },
+    },
     rules: {
       complexity: ["warn", 15],
       "max-lines-per-function": [
