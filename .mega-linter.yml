@@ -42,3 +42,7 @@ GITHUB_COMMENT_REPORTER: true
 
 # Link JSCPD directly to repository config
 REPOSITORY_JSCPD_CONFIG_FILE: .jscpd.json
+
+# Use repository-installed ESLint binary
+TYPESCRIPT_ES_CLI_EXECUTABLE: ["./node_modules/.bin/eslint"]
+JAVASCRIPT_ES_CLI_EXECUTABLE: ["./node_modules/.bin/eslint"]
